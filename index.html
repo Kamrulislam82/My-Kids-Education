@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwindcss cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/e63960d987.js" crossorigin="anonymous"></script>
+     <!-- google font -->
+
+    <!-- title -->
+    <title>My Kids Education</title>
+    
+</head>
+<body>
+    <header>
+        <!-- nav bar -->
+         <div class="navbar px-4 py-4 rounded-box shadow-sm">
+            <div class="navbar-start">
+                <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                </div>
+                <ul
+                    tabindex="-1"
+                    class="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li><a class="text-[#FEA301]">Home</a></li>
+                    <li><a class="text-[#01ACFD]">About</a></li>
+                    <li><a class="text-[#05D4DF]">Facilities</a></li>
+                    <li><a class="text-[#5D58EF]">Admission</a></li>
+                </ul>
+                </div>
+                <div class="flex items-center">
+                    <img src="/assets/logo.png" alt="">
+                    <a class="btn btn-ghost text-xl ">SCHOOL</a>
+                </div>
+                
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal text-xl px-1">
+                <li><a class="text-[#FEA301]">Home</a></li>
+                <li><a class="text-[#01ACFD]">About</a></li>
+                <li><a class="text-[#05D4DF]">Facilities</a></li>
+                <li><a class="text-[#5D58EF]">Admission</a></li>
+                </ul>
+            </div>
+                <div class="navbar-end">
+                    <button class="btn btn-warning text-xl font-bold p-5 rounded-xl text-white">Contact</button>
+                </div>
+            </div>
+
+            <!-- banner -->
+        <section class="mx-auto px-16 lg:px-20">
+           <div class="flex md:flex-row flex-col pt-8 mb-15">
+             <!-- banner text -->
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl"><samp class="text-[#FEA301]">Empowering</samp> students from small age <samp class="text-[#01ACFD]">towards vision</samp></h1>
+                    <p class="text-gray-500 w-3/4 mt-3">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</p>
+                    <button class="btn bg-black text-white font-bold p-5 rounded-xl mt-3 ">Enroll Now</button>
+                </div>
+                <!-- banner img -->
+                <div class="relative">
+                    <img class="w-full" src="assets/hero-kids.png" alt="">
+                </div>
+           </div>
+        </section>
+        <section class="py-8 lg:py-24">
+            <p class="text-3xl md:text-4xl font-bold text-center mb-5">Standard Curriculum</p>
+            <div class="grid md:grid-cols-3 lg:grid-cols-3 gap-4 text-center">
+                <div class="rounded-lg shadow-md bg-gray-100 overflow-hidden">
+                    <img class="mx-auto pt-4" src="assets/kinder.png" alt="">
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-5">Kinder (3-6) Years</h3>
+                        <p class="text-gray-600 mb-10">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mu sdis parturient</p>
+                        <a class="text-[#64C8FF]" href="">Read More</a>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-md bg-gray-100 overflow-hidden">
+                    <img class="mx-auto pt-4" src="assets/elementary.png" alt="">
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-5">Elementary School</h3>
+                        <p class="text-gray-600 mb-10">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mu sdis parturient</p>
+                        <a class="text-[#F0AA00]" href="">Read More</a>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-md bg-gray-100 overflow-hidden">
+                    <img class="mx-auto pt-4" src="assets/middle.png" alt="">
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-3">Middle (10-16) Years</h3>
+                        <p class="text-gray-600 mb-5">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mu sdis parturient</p>
+                        <a class="text-[#8700FF]" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Button - Previous slide -->
+        <div class="text-center text-5xl text-[#FEA301] mb-5">
+            <i class="fa-solid fa-circle-chevron-left"></i>
+            <i class="fa-solid fa-circle-chevron-right"></i>
+        </div>
+        <!-- Our Stories -->
+         <section>
+                 
+               
+<div class="bg-[#fdf5e6] p-8 md:p-16">
+ <h1 class="text-center text-3xl font-bold mb-10">Our Stories</h1>
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            
+            <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm flex flex-col">
+                <div class="relative h-[300px] md:h-[450px]">
+                    <img src="assets/story-1.png" 
+                         alt="Toddler coloring" class="w-full h-full object-cover">
+                    <span class="absolute -bottom-4 left-6 bg-[#4dd0e1] text-white px-5 py-2 rounded-full text-sm font-semibold shadow-md">
+                        November 19, 2019
+                    </span>
+                </div>
+                <div class="p-8 pt-10">
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-800 leading-tight">A fun toddler coloring training on classroom</h2>
+                    <p class="mt-4 text-gray-500 leading-relaxed">Beautiful branding for changes by Never Now in Australia. changes is a platform for open discussion in an inclusive and collaborative environment, providing the...</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="assets/story-2.png" alt="">
+                        <span class="absolute -bottom-3 left-6 bg-[#9ccc65] text-white px-4 py-1.5 rounded-full text-xs font-bold">
+                            November 19, 2019
+                        </span>
+                    </div>
+                    <div class="p-6 pt-8">
+                        <h3 class="font-bold text-gray-800 text-sm md:text-base">Find out if a school fits the family's needs</h3>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="assets/story-3.png" alt="">
+                        <span class="absolute -bottom-3 left-6 bg-[#7986cb] text-white px-4 py-1.5 rounded-full text-xs font-bold">
+                            November 19, 2019
+                        </span>
+                    </div>
+                    <div class="p-6 pt-8">
+                        <h3 class="font-bold text-gray-800 text-sm md:text-base">Summer math & literacy centres for kids</h3>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="assets/story-4.png" alt="">
+                        <span class="absolute -bottom-3 left-6 bg-[#8bc34a] text-white px-4 py-1.5 rounded-full text-xs font-bold">
+                            September 10, 2019
+                        </span>
+                    </div>
+                    <div class="p-6 pt-8">
+                        <h3 class="font-bold text-gray-800 text-sm md:text-base">Classroom management techniques for new tutors</h3>
+
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="assets/story-5.png" alt="">
+                        <span class="absolute -bottom-3 left-6 bg-[#c0ca33] text-white px-4 py-1.5 rounded-full text-xs font-bold">
+                            July 19, 2019
+                        </span>
+                    </div>
+                    <div class="p-6 pt-8">
+                        <h3 class="font-bold text-gray-800 text-sm md:text-base">Conversation rhymes improve kids listening</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
